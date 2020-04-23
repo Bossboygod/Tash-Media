@@ -1,0 +1,78 @@
+body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .bg-image {
+        /* Full height */
+        height: 100%; 
+        
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      /* Images used */
+      .img1 { background-image: url("alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg"); }
+      .img2 { background-image: url("brando-makes-branding-ljurPRAnLAQ-unsplash.jpg"); }
+      .img3 { background-image: url("carlos-muza-hpjSkU2UYSU-unsplash.jpg"); }
+      .img4 { background-image: url("kaleidico-7lryofJ0H9s-unsplash.jpg"); }
+      .img5 { background-image: url("david-iskander-iWTamkU5kiI-unsplash.jpg"); }
+    
+      /* Position text in the middle of the page/image */
+      .bg-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color:WHITE;
+        font-weight: bold;
+        font-size: 50px;
+        border: 10px solid black;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 2000px;
+        padding: 20px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: black;
+      }
+      
+      .topnav a {
+        float: left;
+        color:white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        background-color: midnightblue;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: midnightblue;
+        color: white;
+      }
+      footer {
+    
+        text-align: center;
+        margin-top: 20px;
+        padding: 20px;
+        background-image: url(carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg);
+    }
+    footer p {
+        color: black ;
+        font-family: cursive;
